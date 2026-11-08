@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog HMP-TI ITS - Beranda</title>
+    <meta name="description"
+        content="Katalog digital resmi unit usaha HMP-TI ITS. Menyediakan F&B, Jasa Percetakan & Dokumen, Fasilitas Konsinyasi Mahasiswa, dan Jasa Kreatif terpercaya.">
+
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Stylesheet (Clean Dark Blue Theme) -->
+    <link rel="stylesheet" href="portofolio.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon"><i class="fa-solid fa-shapes"></i></span>
+                <span class="logo-text">HMP-TI <span>Hub</span></span>
+                <span class="badge-its">ITS</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#unit-usaha" class="nav-link">4 Unit Usaha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Katalog Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#konsinyasi-info" class="nav-link">Titip Jual</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#review" class="nav-link">Ulasan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#lokasi" class="nav-link">Lokasi</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Nav Actions -->
+            <div class="nav-actions">
+                <button class="cart-btn" id="cart-toggle-btn" aria-label="Buka Keranjang Layanan">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span class="cart-badge" id="cart-count">0</span>
+                </button>
+                <a href="#menu" class="btn btn-primary nav-cta">Pesan Sekarang</a>
+                <button class="menu-toggle" id="menu-toggle-btn" aria-label="Buka Navigasi Mobile">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+
+    <main>
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero" id="home">
+            <div class="hero-glow glow-1"></div>
+            <div class="hero-glow glow-2"></div>
+
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span>Biro Kewirausahaan HMP-TI ITS • Solusi Kebutuhan Kampus</span>
+                    </div>
+                    <!-- Judul Utama Halaman (h1) -->
+                    <h1 class="hero-title">
+                        Selamat Datang di Katalog Resmi <span class="highlight">Unit Usaha</span> HMP-TI ITS.
+                    </h1>
+                    <p class="hero-description">
+                        Pusat layanan terintegrasi di lingkungan Departemen Teknik Informatika ITS. Menyediakan konsumsi
+                        F&amp;B lezat, cetak dokumen kilat, sarana titip jual produk karya mahasiswa, hingga jasa
+                        kreatif profesional berbiaya ramah kantong.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#unit-usaha" class="btn btn-primary">
+                            <i class="fa-solid fa-shapes"></i> Kenali 4 Unit Usaha
+                        </a>
+                        <button class="btn btn-outline" id="hero-open-konsinyasi-btn">
+                            <i class="fa-solid fa-handshake-angle"></i> Ajukan Titip Jual
+                        </button>
+                    </div>
+
+                    <!-- Hero Quick Stats -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">4 Unit</span>
+                            <span class="stat-label">Layanan Terpadu</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">1.800+</span>
+                            <span class="stat-label">Order Mahasiswa</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">4.9 ★</span>
+                            <span class="stat-label">Kepuasan Pelanggan</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Box -->
+                <div class="hero-visual">
+                    <div class="hero-visual-wrapper">
+                        <div class="hero-main-card">
+                            <div class="card-hero-header">
+                                <div class="header-tags">
+                                    <span class="tag-pill active">🏢 HMP-TI Business Center</span>
+                                    <span class="tag-pill">Kampus Sukolilo</span>
+                                </div>
+                                <h3>4 Unit Usaha Aktif</h3>
+                            </div>
+
+                            <div class="unit-pills-list">
+                                <div class="unit-pill-item" data-target="fnb">
+                                    <div class="pill-icon fnb"><i class="fa-solid fa-burger"></i></div>
+                                    <div class="pill-text">
+                                        <h4>Unit F&amp;B (Food &amp; Drink)</h4>
+                                        <p>Kopi, teh, rice bowl, dan aneka snack harian</p>
+                                    </div>
+                                    <i class="fa-solid fa-angle-right arrow-icon"></i>
+                                </div>
+
+                                <div class="unit-pill-item" data-target="percetakan">
+                                    <div class="pill-icon print"><i class="fa-solid fa-print"></i></div>
+                                    <div class="pill-text">
+                                        <h4>Unit Percetakan &amp; Dokumen</h4>
+                                        <p>Print A4/F4, fotokopi, jilid skripsi, &amp; pengetikan</p>
+                                    </div>
+                                    <i class="fa-solid fa-angle-right arrow-icon"></i>
+                                </div>
+
+                                <div class="unit-pill-item" data-target="konsinyasi">
+                                    <div class="pill-icon konsin"><i class="fa-solid fa-box-archive"></i></div>
+                                    <div class="pill-text">
+                                        <h4>Unit Konsinyasi Mahasiswa</h4>
+                                        <p>Titip jual merch, karya, &amp; produk kreatif mahasiswa</p>
+                                    </div>
+                                    <i class="fa-solid fa-angle-right arrow-icon"></i>
+                                </div>
+
+                                <div class="unit-pill-item" data-target="kreatif">
+                                    <div class="pill-icon creative"><i class="fa-solid fa-wand-magic-sparkles"></i>
+                                    </div>
+                                    <div class="pill-text">
+                                        <h4>Unit Jasa Kreatif</h4>
+                                        <p>Desain grafis, fotografi wisuda, &amp; videografi</p>
+                                    </div>
+                                    <i class="fa-solid fa-angle-right arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badges -->
+                        <div class="floating-badge badge-qris">
+                            <i class="fa-solid fa-qrcode"></i>
+                            <div>
+                                <span class="badge-title">Bayar Praktis</span>
+                                <span class="badge-sub">Support QRIS &amp; Transfer</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-status">
+                            <div class="status-indicator-dot online"></div>
+                            <div>
+                                <span class="badge-title" id="hero-status-title">Buka Hari Ini</span>
+                                <span class="badge-sub">08.00 - 20.00 WIB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= HIGHLIGHTS BANNER ================= -->
+        <section class="perks-strip">
+            <div class="container perks-container">
+                <div class="perk-item">
+                    <div class="perk-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="perk-text">
+                        <h4>Dari Mahasiswa Untuk Mahasiswa</h4>
+                        <p>Harga terjangkau ramah kantong sivitas akademika ITS</p>
+                    </div>
+                </div>
+                <div class="perk-item">
+                    <div class="perk-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+                    <div class="perk-text">
+                        <h4>Pengerjaan Cepat &amp; Presisi</h4>
+                        <p>Layanan cetak &amp; pesanan siap ambil tepat waktu</p>
+                    </div>
+                </div>
+                <div class="perk-item">
+                    <div class="perk-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                    <div class="perk-text">
+                        <h4>Wadah Wirausaha Mahasiswa</h4>
+                        <p>Fasilitas konsinyasi transparan dengan laporan penjualan</p>
+                    </div>
+                </div>
+                <div class="perk-item">
+                    <div class="perk-icon"><i class="fa-solid fa-shield-check"></i></div>
+                    <div class="perk-text">
+                        <h4>Garansi Kepuasan</h4>
+                        <p>Kualitas cetak tajam, rasa F&amp;B higienis, revisi desain</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= STRUKTUR 4 UNIT USAHA HMP-TI (SEMANTIK) ================= -->
+        <section class="section units-section" id="unit-usaha">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Struktur Unit Usaha</span>
+                    <h2 class="section-title">Empat Pilar Bisnis Mahasiswa HMP-TI</h2>
+                    <p class="section-subtitle">
+                        Masing-masing unit didesain untuk merespons kebutuhan nyata sivitas akademika Teknik Informatika
+                        ITS, mulai dari asupan harian hingga penunjang kelulusan.
+                    </p>
+                </div>
+
+                <!-- 4 Unit Usaha Articles Grid -->
+                <div class="units-overview-grid">
+
+                    <!-- 1. Unit F&B (Food & Drink) -->
+                    <article class="unit-overview-card" id="unit-fnb">
+                        <div class="unit-card-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=700&q=80"
+                                alt="Unit F&B Food and Drink HMP-TI ITS" loading="lazy">
+                            <span class="unit-card-badge"><i class="fa-solid fa-utensils"></i> Unit F&amp;B</span>
+                        </div>
+                        <div class="unit-card-body">
+                            <h3 class="unit-card-title">Unit F&amp;B (Food &amp; Drink)</h3>
+                            <p class="unit-card-desc">
+                                Menyediakan berbagai pilihan makanan dan minuman berkualitas tinggi dengan harga ramah
+                                mahasiswa. Mulai dari kopi racikan penyemangat nugas malam, minuman segar, rice bowl
+                                hangat, hingga paket konsumsi snack box untuk rapat dan seminar himpunan.
+                            </p>
+                            <div class="unit-features-list">
+                                <span class="unit-feature-item"><i class="fa-solid fa-mug-hot"></i> Kopi Aren &amp;
+                                    Non-Kopi</span>
+                                <span class="unit-feature-item"><i class="fa-solid fa-bowl-rice"></i> Rice Bowl
+                                    Higienis</span>
+                                <span class="unit-feature-item"><i class="fa-solid fa-box-archive"></i> Snack Box
+                                    Rapat</span>
+                            </div>
+                            <div class="unit-card-actions">
+                                <a href="#menu" class="btn btn-primary btn-sm" data-filter="fnb">
+                                    <i class="fa-solid fa-eye"></i> Lihat Menu F&amp;B
+                                </a>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Admin%20F%26B%20HMP-TI%20ITS,%20saya%20ingin%20memesan%20konsumsi"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                    <i class="fa-brands fa-whatsapp"></i> Chat Admin F&amp;B
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 2. Unit Percetakan & Dokumen -->
+                    <article class="unit-overview-card" id="unit-percetakan">
+                        <div class="unit-card-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1589330694653-dad6bc0140ce?auto=format&fit=crop&w=700&q=80"
+                                alt="Unit Percetakan dan Dokumen HMP-TI ITS" loading="lazy">
+                            <span class="unit-card-badge"><i class="fa-solid fa-print"></i> Percetakan &amp;
+                                Dokumen</span>
+                        </div>
+                        <div class="unit-card-body">
+                            <h3 class="unit-card-title">Unit Percetakan &amp; Dokumen</h3>
+                            <p class="unit-card-desc">
+                                Melayani jasa print dokumen kilat, fotokopi, pengetikan, formatting dokumen sesuai
+                                format resmi Turnitin dan IEEE, serta spesialis jilid hardcover buku Tugas Akhir/Skripsi
+                                dengan foil emas standar perpustakaan ITS. Pengerjaan cepat, rapi, dan terpercaya.
+                            </p>
+                            <div class="unit-features-list">
+                                <span class="unit-feature-item"><i class="fa-solid fa-bolt"></i> Print Kilat A4 /
+                                    F4</span>
+                                <span class="unit-feature-item"><i class="fa-solid fa-book"></i> Hardcover Skripsi
+                                    TA</span>
+                                <span class="unit-feature-item"><i class="fa-solid fa-file-lines"></i> Formatting
+                                    Dokumen</span>
+                            </div>
+                            <div class="unit-card-actions">
+                                <a href="#menu" class="btn btn-primary btn-sm" data-filter="percetakan">
+                                    <i class="fa-solid fa-eye"></i> Lihat Layanan Dokumen
+                                </a>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Unit%20Percetakan%20HMP-TI%20ITS,%20saya%20ingin%20cetak%20dokumen"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                    <i class="fa-brands fa-whatsapp"></i> Order Cetak Kilat
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 3. Unit Konsinyasi (Titip Jual Mahasiswa) -->
+                    <article class="unit-overview-card" id="unit-konsinyasi">
+                        <div class="unit-card-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=700&q=80"
+                                alt="Unit Konsinyasi Mahasiswa HMP-TI ITS" loading="lazy">
+                            <span class="unit-card-badge"><i class="fa-solid fa-handshake"></i> Unit Konsinyasi</span>
+                        </div>
+                        <div class="unit-card-body">
+                            <h3 class="unit-card-title">Unit Konsinyasi (Titip Jual Mahasiswa)</h3>
+                            <p class="unit-card-desc">
+                                Menyediakan fasilitas etalase titip jual bagi mahasiswa Teknik Informatika maupun umum
+                                yang ingin memasarkan produk kreatif, merchandise resmi (lanyard, stiker, kaos/pakaian,
+                                totebag), buku modul kuliah, maupun produk makanan ringan secara transparan dan amanah.
+                            </p>
+                            <div class="unit-features-list">
+                                <span class="unit-feature-item"><i class="fa-solid fa-shirt"></i> Pakaian &amp;
+                                    Merchandise</span>
+                                <span class="unit-feature-item"><i class="fa-solid fa-store"></i> Display Produk
+                                    Mahasiswa</span>
+                                <span class="unit-feature-item"><i class="fa-solid fa-chart-line"></i> Laporan Jual
+                                    Transparan</span>
+                            </div>
+                            <div class="unit-card-actions">
+                                <a href="#menu" class="btn btn-primary btn-sm" data-filter="konsinyasi">
+                                    <i class="fa-solid fa-eye"></i> Lihat Produk Konsinyasi
+                                </a>
+                                <button class="btn btn-outline btn-sm open-konsin-modal-trigger">
+                                    <i class="fa-solid fa-paper-plane"></i> Ajukan Titip Jual
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 4. Unit Jasa Kreatif -->
+                    <article class="unit-overview-card" id="unit-kreatif">
+                        <div class="unit-card-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=700&q=80"
+                                alt="Unit Jasa Kreatif HMP-TI ITS" loading="lazy">
+                            <span class="unit-card-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Jasa
+                                Kreatif</span>
+                        </div>
+                        <div class="unit-card-body">
+                            <h3 class="unit-card-title">Unit Jasa Kreatif</h3>
+                            <p class="unit-card-desc">
+                                Menawarkan layanan profesional di bidang kreatif meliputi jasa desain grafis (poster,
+                                feed IG, banner acara), sesi foto wisuda personal atau grup di spot ikonik kampus ITS,
+                                video reels/TikTok promosi event, hingga pembuatan prototipe UI/UX aplikasi digital.
+                            </p>
+                            <div class="unit-features-list">
+                                <span class="unit-feature-item"><i class="fa-solid fa-palette"></i> Desain Grafis &amp;
+                                    Feed</span>
+                                <span class="unit-feature-item"><i class="fa-solid fa-camera"></i> Foto Wisuda &amp;
+                                    Personal</span>
+                                <span class="unit-feature-item"><i class="fa-solid fa-video"></i> Video Reels &amp;
+                                    TikTok</span>
+                            </div>
+                            <div class="unit-card-actions">
+                                <a href="#menu" class="btn btn-primary btn-sm" data-filter="kreatif">
+                                    <i class="fa-solid fa-eye"></i> Portofolio &amp; Tarif
+                                </a>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Tim%20Kreatif%20HMP-TI%20ITS,%20saya%20tertarik%20dengan%20jasa%20desain/foto"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                    <i class="fa-brands fa-whatsapp"></i> Konsultasi Jasa
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= MENU / KATALOG UNIT USAHA INTERAKTIF ================= -->
+        <section class="section menu-section" id="menu">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Katalog Terpadu</span>
+                    <h2 class="section-title">Pilihan Layanan &amp; Produk Menu</h2>
+                    <p class="section-subtitle">
+                        Filter produk atau jasa yang ingin Anda pesan, tambahkan ke keranjang rencana layanan, dan
+                        hubungi admin dalam satu klik mudah.
+                    </p>
+                </div>
+
+                <!-- Unit Usaha Filter Tabs -->
+                <div class="menu-categories" id="menu-categories">
+                    <button class="category-btn active" data-category="all">
+                        <i class="fa-solid fa-border-all"></i> Semua Unit
+                    </button>
+                    <button class="category-btn" data-category="fnb">
+                        <i class="fa-solid fa-utensils"></i> Unit F&amp;B
+                    </button>
+                    <button class="category-btn" data-category="percetakan">
+                        <i class="fa-solid fa-print"></i> Percetakan &amp; Dokumen
+                    </button>
+                    <button class="category-btn" data-category="konsinyasi">
+                        <i class="fa-solid fa-box-open"></i> Unit Konsinyasi
+                    </button>
+                    <button class="category-btn" data-category="kreatif">
+                        <i class="fa-solid fa-palette"></i> Jasa Kreatif
+                    </button>
+                </div>
+
+                <!-- Unit Quick Info Box -->
+                <div class="unit-summary-banner" id="unit-summary-banner">
+                    <div class="banner-icon"><i class="fa-solid fa-circle-info"></i></div>
+                    <div class="banner-text">
+                        <strong id="unit-banner-title">Menampilkan Semua Unit Usaha HMP-TI ITS</strong>
+                        <p id="unit-banner-desc">Klik tombol kategori di atas untuk memfilter produk atau layanan
+                            spesifik dari unit usaha yang Anda butuhkan.</p>
+                    </div>
+                </div>
+
+                <!-- Catalog Grid -->
+                <div class="menu-grid" id="menu-grid">
+                    <!-- Cards will be populated dynamically by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= KONSINYASI CALLOUT / INFO SECTION ================= -->
+        <section class="section konsinyasi-section" id="konsinyasi-info">
+            <div class="container">
+                <div class="konsinyasi-card">
+                    <div class="konsinyasi-content">
+                        <span class="section-tag">Program Mitra Mahasiswa</span>
+                        <h2 class="konsinyasi-title">Punya Produk atau Karya? Titip Jual di HMP-TI Hub!</h2>
+                        <p class="konsinyasi-desc">
+                            Bagi mahasiswa Departemen Teknik Informatika maupun ITS umum yang memiliki produk makanan
+                            ringan, merchandise, kerajinan, buku/modul, atau karya kreatif lainnya, Anda dapat
+                            memanfaatkan etalase konsinyasi HMP-TI secara mudah dan transparan.
+                        </p>
+                        <div class="konsinyasi-steps">
+                            <div class="step-card">
+                                <span class="step-num">01</span>
+                                <h4>Isi Formulir</h4>
+                                <p>Daftarkan rincian barang, harga jual, dan stok awal secara online melalui formulir.
+                                </p>
+                            </div>
+                            <div class="step-card">
+                                <span class="step-num">02</span>
+                                <h4>Serahkan Barang</h4>
+                                <p>Bawa produk ke Sekretariat HMP-TI untuk pencatatan inventaris dan tanda terima resmi.
+                                </p>
+                            </div>
+                            <div class="step-card">
+                                <span class="step-num">03</span>
+                                <h4>Pencairan Dana</h4>
+                                <p>Laporan penjualan berkala &amp; bagi hasil transparan langsung ditransfer ke
+                                    rekeningmu.</p>
+                            </div>
+                        </div>
+                        <div class="konsinyasi-action">
+                            <button class="btn btn-primary" id="open-konsinyasi-form-btn">
+                                <i class="fa-solid fa-paper-plane"></i> Ajukan Konsinyasi Sekarang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= REVIEW & RATING SECTION ================= -->
+        <section class="section review-section" id="review">
+            <div class="container">
+                <div class="review-layout">
+                    <!-- Left: Summary Box -->
+                    <div class="rating-summary-card">
+                        <span class="section-tag">Testimoni Sivitas ITS</span>
+                        <h2 class="rating-title">Ulasan Mahasiswa &amp; Dosen</h2>
+                        <p class="rating-desc">
+                            Komitmen HMP-TI dalam memberikan pelayanan terbaik untuk mendukung kelancaran kegiatan
+                            akademik dan wirausaha kampus.
+                        </p>
+
+                        <div class="rating-score-box">
+                            <div class="score-large">4.9</div>
+                            <div class="stars-outer">
+                                <div class="stars-row">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="review-total-text">Berdasarkan <span id="total-reviews-count">6</span>
+                                    testimoni terverifikasi</span>
+                            </div>
+                        </div>
+
+                        <!-- Breakdown Bars -->
+                        <div class="rating-bars">
+                            <div class="bar-row">
+                                <span class="bar-label">5 ★</span>
+                                <div class="bar-track">
+                                    <div class="bar-fill" style="width: 94%;"></div>
+                                </div>
+                                <span class="bar-pct">94%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">4 ★</span>
+                                <div class="bar-track">
+                                    <div class="bar-fill" style="width: 6%;"></div>
+                                </div>
+                                <span class="bar-pct">6%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">3 ★</span>
+                                <div class="bar-track">
+                                    <div class="bar-fill" style="width: 0%;"></div>
+                                </div>
+                                <span class="bar-pct">0%</span>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary add-review-trigger-btn" id="open-review-modal-btn">
+                            <i class="fa-solid fa-pen-to-square"></i> Berikan Testimoni Anda
+                        </button>
+                    </div>
+
+                    <!-- Right: Reviews Feed -->
+                    <div class="reviews-feed">
+                        <div class="reviews-grid" id="reviews-container">
+                            <!-- Dynamic Review Cards injected here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= LOKASI & KONTAK SECTION ================= -->
+        <section class="section location-section" id="lokasi">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Pusat Layanan</span>
+                    <h2 class="section-title">Jam Buka &amp; Kontak Operasional</h2>
+                    <p class="section-subtitle">
+                        Hubungi admin atau kunjungi langsung layanan online HMP-TI untuk kebutuhan akademik dan
+                        wirausaha Anda.
+                    </p>
+                </div>
+
+                <div class="location-grid">
+                    <!-- Info Card -->
+                    <div class="location-info-card">
+                        <!-- Live Status Pill -->
+                        <div class="status-live-banner" id="status-live-banner">
+                            <div class="status-indicator-dot online"></div>
+                            <span>Jam Operasional: <strong>08.00 - 20.00 WIB</strong> (Senin - Sabtu)</span>
+                        </div>
+
+                        <h3 class="location-card-title">HMP-TI Hub Online</h3>
+                        <p class="location-card-desc">
+                            Layanan konsultasi, pemesanan produk, dan titip jual dapat diakses dengan mudah secara
+                            online melalui narahubung resmi kami.
+                        </p>
+
+                        <div class="location-details-list">
+                            <div class="location-detail-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>hub@hmpti-its.com</span>
+                            </div>
+                            <div class="location-detail-item">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <span>+62 812-3456-7890 (Admin Hub)</span>
+                            </div>
+                        </div>
+
+                        <div class="location-actions">
+                            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-primary">
+                                <i class="fa-brands fa-whatsapp"></i> Hubungi Admin via WhatsApp
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Response Banner Box -->
+                    <div class="location-map-wrapper">
+                        <div
+                            style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; background: var(--bg-card, #111b2d); border-radius: 12px; padding: 2rem; text-align: center; color: #fff;">
+                            <i class="fa-solid fa-headset"
+                                style="font-size: 3rem; color: #3b82f6; margin-bottom: 1rem;"></i>
+                            <h3 style="margin-bottom: 0.5rem;">Layanan Respon Cepat</h3>
+                            <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 1.5rem;">Tim operasional kami
+                                siap melayani pertanyaan seputar F&B, dokumen, hingga titip jual setiap hari kerja.</p>
+                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-outline btn-sm">
+                                <i class="fa-brands fa-instagram"></i> Ikuti @hmpti_its
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#home" class="footer-logo">
+                    <span class="logo-icon"><i class="fa-solid fa-shapes"></i></span>
+                    <span class="logo-text">HMP-TI <span>Hub</span></span>
+                    <span class="badge-its">ITS</span>
+                </a>
+                <p class="footer-desc">
+                    Pusat layanan dan unit usaha resmi HMP-TI ITS untuk memenuhi kebutuhan akademik, konsumsi,
+                    konsinyasi, dan kreatif mahasiswa.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer"
+                        aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">Tautan Cepat</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#unit-usaha">4 Unit Usaha</a></li>
+                    <li><a href="#menu">Katalog Menu</a></li>
+                    <li><a href="#konsinyasi-info">Titip Jual</a></li>
+                    <li><a href="#review">Ulasan</a></li>
+                    <li><a href="#lokasi">Lokasi</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">Unit Usaha Kami</h4>
+                <ul class="footer-links">
+                    <li><a href="#menu">Unit F&amp;B (Food &amp; Drink)</a></li>
+                    <li><a href="#menu">Unit Percetakan &amp; Dokumen</a></li>
+                    <li><a href="#menu">Unit Konsinyasi Mahasiswa</a></li>
+                    <li><a href="#menu">Unit Jasa Kreatif</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">Jam Layanan</h4>
+                <p class="footer-text">Senin - Jumat: 08.00 - 20.00 WIB</p>
+                <p class="footer-text">Sabtu: 09.00 - 17.00 WIB</p>
+                <p class="footer-text">Minggu / Tanggal Merah: Libur / Konfirmasi Online</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; 2026 HMP-TI ITS. Hak Cipta Dilindungi. Dibuat dengan semangat kolaborasi dan kreativitas.</p>
+                <p>Departemen Teknik Informatika ITS, Surabaya</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
